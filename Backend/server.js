@@ -19,7 +19,7 @@ const pool = new Pool({
   port: process.env.DB_PORT,
 });
 
-// Test database connection
+// Test database connection rawan
 pool.query("SELECT NOW()", (err, res) => {
   if (err) {
     console.error("Error connecting to the database", err);
